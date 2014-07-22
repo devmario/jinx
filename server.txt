@@ -1,0 +1,41 @@
+http://ec2-54-214-135-175.us-west-2.compute.amazonaws.com/
+
+server
+-------------------------------------------------------------------------------------------------
+database
+user - [kakao talk id] nickname, picture, push token
+game id list - [kakao talk id] 'game id, last word pair, user id pair, turn' list
+game - [game id] user list, message list, last word pair
+game queue - [game id, kakao user id] message (only memcache, always remove)
+-------------------------------------------------------------------------------------------------
+code
+get main
+kakao talk id
+nickname(is exist)
+pickture(is exist)
+
+user info
+'game id, last word pair, user id pair, turn, success' list
+regist push token
+kakao talk id
+push token
+send message
+kakao talk id
+game id(is exist)
+to kakao talk id(if not random)
+to kakao talk nickname(if not random, is not game user)
+to kakao talk picture(if not random, is not game user)
+success(is match)
+message
+get game
+game id
+user id pair
+message list
+get game queue
+kakao talk id
+game id
+
+turn
+match
+message
+-------------------------------------------------------------------------------------------------

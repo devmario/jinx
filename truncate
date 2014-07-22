@@ -1,0 +1,5 @@
+use jinx;
+truncate game;
+truncate gamelist;
+truncate user;
+

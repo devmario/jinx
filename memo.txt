@@ -1,0 +1,3 @@
+  iOS/.DS_Store
+  5     iOS/DessertTown.xcodeproj/project.pbxproj
+  6     iOS/DessertTown.xcodeproj/project.xcworkspace/xcuserdata/mario.xcuserdatad/UserInterfaceState.xcuserstate
