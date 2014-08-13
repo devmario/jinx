@@ -160,7 +160,6 @@
 		ACB10B5E174D8ED8002DF8D2 /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB10B5D174D8ED8002DF8D2 /* API.m */; };
 		ACD8F6BB17525F11003538AB /* STSTPrevGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD8F6B917525F11003538AB /* STSTPrevGameViewController.m */; };
 		ACD8F6BC17525F11003538AB /* STSTPrevGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACD8F6BA17525F11003538AB /* STSTPrevGameViewController.xib */; };
-		ACD8F6BD1752709D003538AB /* GoogleTalk.m in Sources */ = {isa = PBXBuildFile; fileRef = 049390BB174E11DA003497C2 /* GoogleTalk.m */; };
 		ACFD4578174EFE2800DF2BE4 /* icon_HD.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFD4577174EFE2800DF2BE4 /* icon_HD.png */; };
 		ACFD457A174EFE3300DF2BE4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFD4579174EFE3300DF2BE4 /* icon.png */; };
 		ACFD457C174F004000DF2BE4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFD457B174F003F00DF2BE4 /* Default@2x.png */; };
@@ -168,6 +167,7 @@
 		ACFD4580174F007900DF2BE4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFD457F174F007800DF2BE4 /* Default.png */; };
 		ACFD4658174F265800DF2BE4 /* haha.wav in Resources */ = {isa = PBXBuildFile; fileRef = ACFD4617174F265800DF2BE4 /* haha.wav */; };
 		ACFD4659174F265800DF2BE4 /* jinx.wav in Resources */ = {isa = PBXBuildFile; fileRef = ACFD4618174F265800DF2BE4 /* jinx.wav */; };
+		BC906F2D199B549500E6E5AB /* GoogleTalk.m in Sources */ = {isa = PBXBuildFile; fileRef = BC906F2C199B549500E6E5AB /* GoogleTalk.m */; };
 		EC1ACE2F174A7992001D37B4 /* STSTIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1ACE2D174A7992001D37B4 /* STSTIntroViewController.m */; };
 		EC1ACE36174A7BEC001D37B4 /* STSTLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1ACE34174A7BEC001D37B4 /* STSTLoadingViewController.m */; };
 		EC1ACE37174A7BEC001D37B4 /* STSTLoadingViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1ACE35174A7BEC001D37B4 /* STSTLoadingViewController_iPad.xib */; };
@@ -324,8 +324,6 @@
 		04801EFC175235160019D8BA /* STSTShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSTShopViewController.h; sourceTree = "<group>"; };
 		04801EFD175235160019D8BA /* STSTShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSTShopViewController.m; sourceTree = "<group>"; };
 		04801EFE175235160019D8BA /* STSTShopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STSTShopViewController.xib; sourceTree = "<group>"; };
-		049390BA174E11DA003497C2 /* GoogleTalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoogleTalk.h; path = ../../google_say/GoogleTalk.h; sourceTree = "<group>"; };
-		049390BB174E11DA003497C2 /* GoogleTalk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoogleTalk.m; path = ../../google_say/GoogleTalk.m; sourceTree = "<group>"; };
 		049FCEAC1751F8D600CABA2D /* end_game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = end_game.png; sourceTree = "<group>"; };
 		049FCEAD1751F8D600CABA2D /* end_game@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "end_game@2x.png"; sourceTree = "<group>"; };
 		049FCEB01751F8DE00CABA2D /* logo_com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_com.png; sourceTree = "<group>"; };
@@ -368,6 +366,8 @@
 		ACFD457F174F007800DF2BE4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		ACFD4617174F265800DF2BE4 /* haha.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = haha.wav; sourceTree = "<group>"; };
 		ACFD4618174F265800DF2BE4 /* jinx.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jinx.wav; sourceTree = "<group>"; };
+		BC906F2B199B549500E6E5AB /* GoogleTalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleTalk.h; sourceTree = "<group>"; };
+		BC906F2C199B549500E6E5AB /* GoogleTalk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleTalk.m; sourceTree = "<group>"; };
 		D7D7AB2CBD0B4284A0AA2B5B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		EC1ACE2C174A7992001D37B4 /* STSTIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSTIntroViewController.h; sourceTree = "<group>"; };
 		EC1ACE2D174A7992001D37B4 /* STSTIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSTIntroViewController.m; sourceTree = "<group>"; };
@@ -684,8 +684,6 @@
 		ECC92BDF1749F14200120215 /* STST */ = {
 			isa = PBXGroup;
 			children = (
-				049390BA174E11DA003497C2 /* GoogleTalk.h */,
-				049390BB174E11DA003497C2 /* GoogleTalk.m */,
 				ACB10B5B174D8EBA002DF8D2 /* webapi */,
 				ECC66D1E174B0BE3006274F6 /* Scene_important */,
 				ECC66D1D174B0BAC006274F6 /* Scene_not_important */,
@@ -694,6 +692,8 @@
 				3849810E174CED8E00FEB725 /* STSTUser.h */,
 				3849810F174CED8E00FEB725 /* STSTUser.m */,
 				ECC92BE01749F14200120215 /* Supporting Files */,
+				BC906F2B199B549500E6E5AB /* GoogleTalk.h */,
+				BC906F2C199B549500E6E5AB /* GoogleTalk.m */,
 			);
 			path = STST;
 			sourceTree = "<group>";
@@ -998,6 +998,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC906F2D199B549500E6E5AB /* GoogleTalk.m in Sources */,
 				ECC92BE61749F14200120215 /* main.m in Sources */,
 				ECC92BEA1749F14200120215 /* STSTAppDelegate.m in Sources */,
 				EC1ACE2F174A7992001D37B4 /* STSTIntroViewController.m in Sources */,
@@ -1013,7 +1014,6 @@
 				385E516A17520DD000E6FB1B /* STSTActivityIndicatorView.m in Sources */,
 				04801EFF175235170019D8BA /* STSTShopViewController.m in Sources */,
 				ACD8F6BB17525F11003538AB /* STSTPrevGameViewController.m in Sources */,
-				ACD8F6BD1752709D003538AB /* GoogleTalk.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
